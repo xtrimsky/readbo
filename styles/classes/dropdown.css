@@ -1,0 +1,23 @@
+.dropdown{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: white;
+    border: 1px solid #ccc;
+}
+
+.dropdown li{
+    padding: 2px 5px 4px 5px;
+    cursor: pointer;
+}
+
+.dropdown li:hover{
+    background-color: _blue1_;
+    color: white;
+}
+
+.dropdown_separator{
+    width: 100%;
+    height: 1px;
+    border-top: 1px solid #ccc;
+}

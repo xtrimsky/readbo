@@ -1,0 +1,1 @@
+<p>Go check your email! We just sent you instructions how to reset your password!</p>

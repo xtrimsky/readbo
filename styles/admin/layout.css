@@ -1,0 +1,67 @@
+#header{
+    height: 49px;
+    border-bottom: 1px solid #888;
+    background-image: -webkit-gradient(
+                        linear,
+                        left bottom,
+                        left top,
+                        from(#43310c),
+                        to(#5f4815)
+                    );
+    background-image: -moz-linear-gradient(
+                        center top,
+                        #5f4815,
+                        #43310c
+                    );
+
+    filter:  progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#5f4815', endColorstr='#43310c'); /* IE6 & IE7 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#5f4815', endColorstr='#43310c')"; /* IE8 */
+}
+
+#header h1{
+    font-size: 20px;
+    float: left;
+    padding: 15px;
+    color: white;
+}
+
+#app{
+    padding: 30px;
+}
+
+#nav{
+    position: relative;
+    float: right;
+    margin-right: 20px;
+}
+
+#nav li{
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+    padding: 16px 15px 17px 15px;
+}
+
+#nav li:hover{
+    background-color: #43320e;
+    color: white;
+}
+
+#nav li a{
+    color: #ddd;
+    text-decoration: none;
+}
+
+#nav li:hover a{
+    color: white;
+}
+
+h2{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+table td, table th{
+    padding: 10px;
+}

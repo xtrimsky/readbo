@@ -1,0 +1,232 @@
+.reader{
+    font-size: _font_size_small3_;
+}
+
+.reader_header{
+    font-size: 14px;
+    background-color: white;
+    padding: 4px 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+}
+
+.reader_header .fl_title{
+    color: black;
+    text-decoration: none;
+    overflow: hidden;
+    top: 3px;
+    margin-right: 100px;
+    font-weight: normal;
+    font-size: _font_size_small2_;
+}
+
+.reader_header .main_title{
+    font-weight: bold;
+    color: #143D5D;
+    font-size: _font_size_small3_;
+    line-height: 20px;
+}
+
+.no_img_fd .fl_title_text{
+    font-weight: bold;
+}
+
+.fl_content{
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    display: none;
+}
+
+.fl_title_text{
+    height: auto;
+    display: block;
+    padding-left: 42px;
+    padding-right: 85px;
+}
+
+.reader_active .fl_title_text{
+    height: auto;
+    display: inline;
+    padding-left: 0px;
+}
+
+.fl_content_insidewrap{
+    max-width: 700px;
+    padding: 20px;
+}
+
+.fl_title{
+    float: left;
+    line-height: 18px;
+    width: 100%;
+}
+
+.reader_active{
+    background-color: _gradient1c2_;
+    border-bottom: none;
+}
+
+.reader_read .main_title{
+    font-weight: normal;
+}
+
+.reader_read .fl_title_text{
+    font-weight: normal;
+}
+
+.rss_link{
+    font-size: 16px;
+
+}
+
+.fl_text{
+    padding-top: 5px;
+    overflow: hidden;
+    line-height: 1.5;
+    padding-bottom: 20px;
+}
+
+.fl_actions{
+    font-size: _font_size_small3_;
+}
+
+.fl_actions a{
+    padding: 2px 5px;
+    color: #555;
+    background-color: _navigation_background_;
+    border: 1px solid #666;
+    text-decoration: none;
+    margin-right: 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+}
+
+.fl_actions a:hover{
+    color: black;
+}
+
+.fl_likes{
+    background-color: #9fbddb;
+    -moz-border-radius: 8px 8px 8px 8px;
+    border-radius: 8px 8px 8px 8px;
+    -webkit-border-radius: 8px 8px 8px 8px;
+    padding: 3px 4px 3px 3px;
+    font-weight: bold;
+    position: relative;
+    left: 5px;
+    display: none;
+}
+
+.add-feed-search-result li{
+    margin-top: 7px;
+    margin-left: 3px;
+}
+
+.txtFeedSearch{
+    -moz-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+
+    border: 1px solid #555;
+    background-color: white;
+    margin: 10px 0;
+
+    padding: 5px;
+    width: 400px;
+}
+
+.txtFeedAddURL{
+    -moz-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    
+    border: 1px solid #555;
+    background-color: white;
+    margin: 10px 0;
+    
+    padding: 5px;
+    width: 400px;
+}
+
+#txtFeedAddTwitter{
+    -moz-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    
+    border: 1px solid #555;
+    background-color: white;
+    margin: 10px 0;
+    
+    padding: 5px;
+    width: 350px;
+}
+
+#addTwitterSearch{
+    position: relative;
+    left: 10px;
+}
+
+.btnAddFeedByURL{
+    float: right;
+}
+
+.feed_link .nav_title{
+    font-size: _font_size_small1_ !important;
+}
+
+.feed_link:hover .edit_feed{
+    display: block;
+}
+
+.feed_icon{
+    width: 12px;
+    height: 12px;
+    position: relative;
+    top: 2px;
+    padding-right: 5px;
+}
+
+.edit_feed{
+    float: right;
+    display: block;
+    height: 16px;
+    width: 16px;
+    background: transparent url(_MEDIA_SERVER_/images/edit_feed.png) no-repeat -1px 2px;
+    display: none;
+}
+
+.feed_picture{
+    padding-right: 10px;
+    padding-top: 4px;
+    float: left;
+}
+
+.feedflare{
+    display: none !important;
+}
+
+.fl_date{
+    float: right;
+    font-size: _font_size_small1_;
+    color: _gray1_;
+}
+
+#searchbar{
+    width: 300px;
+    position: relative;
+    top: 11px;
+    left: 188px;
+    height: 20px;
+}
+
+.no_img_fd .fl_title_text{
+    padding-left: 5px;
+}
+
+.no_img_fd .fl_title{
+    position: relative;
+    top: 4px;
+}

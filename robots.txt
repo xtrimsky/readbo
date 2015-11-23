@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /application/
+Disallow: /min/
+Disallow: /scripts/
+Disallow: /styles/
+Disallow: /system/
+Disallow: /unit_tests/
+Disallow: /upload/

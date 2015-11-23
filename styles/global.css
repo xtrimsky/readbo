@@ -1,0 +1,201 @@
+body{
+	font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+	font-size: 14px;
+        line-height: 1.3;
+}
+
+p{
+    line-height: 150%;
+}
+
+button, input[type="button"], input[type="submit"]{
+    padding: 3px 10px;
+    background-color: deepskyblue;
+    border: 1px solid #ddd;
+    height: 27px;
+
+    background-image: -webkit-gradient(
+                        linear,
+                        left bottom,
+                        left top,
+                        from(#DAE0E5),
+                        to(#FFFFFF)
+                    );
+    background-image: -moz-linear-gradient(
+                        center top,
+                        #FFFFFF,
+                        #DAE0E5
+                    );
+
+    filter:  progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#FFFFFF', endColorstr='#DAE0E5'); /* IE6 & IE7 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#FFFFFF', endColorstr='#DAE0E5')"; /* IE8 */
+
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+
+    cursor: pointer;
+}
+
+button:hover, input[type="button"]:hover{
+	border: 1px solid #888;
+}
+
+button:active, input[type="button"]:active{
+        background-color: #DAE0E5;
+        background-image: -webkit-gradient(
+                        linear,
+                        left bottom,
+                        left top,
+                        from(#FFFFFF),
+                        to(#DAE0E5)
+                    );
+        background-image: -moz-linear-gradient(
+                        center top,
+                        #DAE0E5,
+                        #FFFFFF
+                    );
+
+        filter:  progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#DAE0E5', endColorstr='#FFFFFF'); /* IE6 & IE7 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#DAE0E5', endColorstr='#FFFFFF')"; /* IE8 */
+}
+
+#kohana-profiler{
+    font-size: _font_size_small1_;
+    display: none;
+}
+
+.clear{
+    clear: both;
+}
+
+ul{
+    list-style: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+a:focus {
+    outline: none;
+}
+
+.input-error{
+    color: red;
+}
+
+.form-error{
+    color: red;
+    margin-bottom: 10px;
+    /* display: none; */
+}
+
+button::-moz-focus-inner {
+    border:0;
+}
+
+.hidden{
+    display: none;
+}
+
+.updating{
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: _font_size_small3_;
+    position: relative;
+    top: 10px;
+    display: none;
+}
+
+.tabbed_list{
+    float: left;
+    width: 190px;
+    padding: 20px 0px 20px 0;
+    border-right: 1px solid #ccc;
+    margin: 15px 0 15px 0;
+}
+
+.tabbed_list li{
+    cursor: pointer;
+    padding: 5px 20px 5px 20px;
+}
+
+.tabbed_list li:hover{
+    background-color: _navigation_background_;
+}
+
+.tabbed_list .sel-tab{
+    background-color: _header_hover_ !important;
+    color: white;
+}
+
+.tabs-list{
+    padding: 40px;
+    text-align: left;
+    float: left;
+}
+
+.tabs-list div{
+    display: none;
+    /* margin-left: 150px; */
+    width: auto;
+}
+
+.tabs-list div:first-child{
+    display: block;
+}
+
+.dialog-settings .tabs-list, .dialog-filters .tabs-list{
+    width: 350px;
+}
+
+.dialog-add_feed .tabs-list{
+    width: 413px;
+}
+
+.always_visible{
+    display: block !important;
+}
+
+#dev_toolbar_wrapper{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: white;
+    border-top: 1px solid #333;
+}
+
+#dev_subwrapper{
+    max-height: 500px;
+    overflow: auto;
+}
+
+#dev_toolbar{
+    background-color: #888;
+    height: auto;
+    width: 100%;
+}
+
+#bottom_text{
+    padding-top: 10px;
+}
+
+#bottom_text li{
+    float: left;
+}
+
+#bottom_text a{
+    text-decoration: none;
+}
+
+#bottom_text a:hover{
+    text-decoration: underline;
+}
+
+.error_text{
+    color: red;
+    font-weight: bold;
+}

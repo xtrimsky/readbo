@@ -1,0 +1,15 @@
+#header{
+    margin: 0 !important;
+}
+
+#main{
+    min-height: 0;
+}
+
+#website_display{
+    position: absolute;
+    top: 49px;
+    left: 0px;
+    width: 100%;
+    border: 0;
+}

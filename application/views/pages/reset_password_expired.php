@@ -1,0 +1,1 @@
+<p>Error: This link is either not valid, or it has expired. (Reset passwords expire after 24 hours)</p>

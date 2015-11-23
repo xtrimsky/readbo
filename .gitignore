@@ -1,0 +1,4 @@
+application/logs/log*
+public/link/**/*
+upload/**/*
+/nbproject/private/

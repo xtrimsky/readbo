@@ -1,0 +1,96 @@
+body{
+    font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+}
+
+#pages_header{
+    background: url(_MEDIA_SERVER_/images/pages/header_background.png) repeat-x;
+    height: 165px;
+    width: 100%;
+    border-bottom: #555;
+}
+
+#pages_header_content{
+    width: 960px;
+    height: 100%;
+    margin: 0 auto;
+    color: white;
+    padding-top: 30px;
+}
+
+#pages_header_content ul{
+    padding-top: 40px;
+}
+
+#pages_header_content li{
+    float: left;
+    padding-right: 20px;
+}
+
+#pages_header_content li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#pages_header_content li a:hover{
+    text-decoration: underline;
+}
+
+#pages_logo{
+    font-size: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#pages_logo .smalltext{
+    font-size: 18px;
+}
+
+#pages_box{
+    width: 900px;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 50px;
+    min-height: 400px;
+}
+
+h2{
+    font-size: 28px;
+    padding-bottom: 20px;
+}
+
+#pages_contact_form{
+    font-size: 16px;
+}
+
+#pages_contact_form input{
+    width: 250px;
+}
+
+#pages_contact_form td{
+    padding-bottom: 10px;
+}
+
+.left_side{
+    width: 100px;
+}
+
+#pages_footer{
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    float: right;
+}
+
+#pages_content h3{
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+#pages_content{
+    line-height: 1.7;
+}
+
+#pages_menu .current{
+    text-decoration: underline;
+}

@@ -1,0 +1,261 @@
+body{
+    background-color: #02050c;
+}
+
+#footer{
+    text-align: right;
+    bottom: 0px;
+    width: 100%;
+    background-color: _app_background_;
+    font-size: _font_size_small3_;
+    height: 17px;
+    padding-top: 5px;
+}
+
+#footer.fixed{
+    position: fixed;
+}
+
+#top{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    padding-bottom: 28px;
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+#bottom_text a{
+    color: white;
+}
+
+#bottom_text a:hover{
+    color: white;
+}
+
+#leftside{
+    border: 1px solid #0e0e33;
+    width: 488px;
+    /* height: 230px; */
+    height: 100px;
+    background-color: #0c2145;
+    padding: 30px;
+}
+
+#cool_info{
+    border: 1px solid #0e0e33;
+    width: 488px;
+    background-color: #0c2145;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+#find_out_more{
+    list-style-type: square;
+    padding-left: 25px;
+    padding-top: 15px;
+}
+
+#find_out_more a{
+    color: white;
+    line-height: 1.5;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#inviteemail{
+    font-size: 18px;
+    padding: 5px 10px;
+    width: 300px;
+}
+
+#btnInvite{
+    position: relative;
+    left: 10px;
+    font-size: 18px;
+    padding: 0px 15px;
+    height: 34px;
+}
+
+#leftsidewrapper{
+    float: left;
+    color: white;
+    position: relative;
+    left: 75px;
+}
+
+#rightside{
+    float: right;
+    top: 25px;
+    width: 310px;
+    border: 1px solid #0e0e33;
+    background-color: #0c2145;
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#maintext{
+    padding-bottom: 30px;
+    line-height: 1.2;
+}
+
+#pstext{
+    padding-top: 30px;
+}
+
+#loginbox{
+    color: black;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 30px auto 30px auto;
+    width: 226px;
+    text-align: left;
+
+    -moz-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+
+    /* background-color: #ffffff; */
+    background-image: -webkit-gradient(
+                        linear,
+                        left bottom,
+                        left top,
+                        from(_gradient1c2_),
+                        to(_gradient1c1_)
+                    );
+    background-image: -moz-linear-gradient(
+                        center top,
+                        _gradient1c1_,
+                        _gradient1c2_
+                    );
+
+    filter:  progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='_gradient1c1_', endColorstr='_gradient1c2_'); /* IE6 & IE7 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='_gradient1c1_', endColorstr='_gradient1c2_')"; /* IE8 */
+}
+
+#loginbox label{
+    margin-right: 10px;
+}
+
+#loginbox tr{
+    height: 30px;
+}
+
+#loginbox input[type="text"], #loginbox input[type="password"]{
+    width: 143px;
+}
+
+#loginbox input[type="checkbox"]{
+    position: relative;
+    left: 5px;
+}
+
+#btnLogin{
+    position: relative;
+    left: 161px;
+}
+
+.login-error{
+    color: red;
+}
+
+#background{
+    width: 960px;
+    height: 100%;
+    background: transparent url(_MEDIA_SERVER_/images/welcome.jpg) no-repeat;
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    margin-left: -480px;
+}
+
+#app{
+    width: 960px;
+    height: 650px;
+    margin: 0 auto;
+}
+
+body{
+}
+
+/* ######### REGISTRATION ############ */
+
+#register-left-column{
+    width: 300px;
+    float: left;
+    padding-right: 10px;
+    border-right: 1px solid #ccc;
+}
+
+#register-left-column input{
+    width: 152px;
+}
+
+#register-right-column{
+    width: 200px;
+    float: left;
+    padding-left: 40px;
+}
+
+#register-right-column ul{
+    margin-top: 20px;
+}
+
+#register-right-column li{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#register-right-column li a{
+    color: blue;
+    text-decoration: none;
+}
+
+#register-title{
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+#register-left-column tr{
+    height: 30px;
+}
+
+#register-left-column label{
+    margin-right: 15px;
+}
+
+.icon{
+    margin-right: 10px;
+    float: left;
+}
+
+.register-link-facebook .icon{
+    width: 21px;
+    height: 21px;
+    background: transparent url(_MEDIA_SERVER_/images/facebook_21.png) no-repeat;
+}
+
+.register-link-google .icon{
+    width: 21px;
+    height: 21px;
+    background: transparent url(_MEDIA_SERVER_/images/google_21.png) no-repeat;
+}
+
+.register-link-twitter .icon{
+    width: 21px;
+    height: 21px;
+    background: transparent url(_MEDIA_SERVER_/images/twitter_21.png) no-repeat;
+}
+
+#btnRegister{
+    display: block;
+    background: transparent url(_MEDIA_SERVER_/images/register_button.png) no-repeat;
+    width: 237px;
+    height: 48px;
+    margin: 0 auto;
+}
+
+a{
+    color: blue;
+}
