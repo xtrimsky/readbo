@@ -8,7 +8,7 @@ Back then servers were more expensive, it costed me 80$/month to run this. After
 
 #### Needed improvement
 
-Separate the web app, and the news fetching service. The main problem with this version was that it could not easily be splitted into many servers. I've worked on a new version but I am not sharing it as it's not a working prototype and I'll never finish it.
+Separate the web app, and the news fetching service. The main problem with this version was that it could not easily be splitted into many servers. I've worked on a new version but I am not sharing it as it's not a working prototype and I'll never finish it. Both Facebook and Twitter made their API too limiting, and this would make the Twitter and Facebook API not functionning.
 
 #### Technical guide
 
